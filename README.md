@@ -24,21 +24,29 @@
    git clone https://github.com/QTDevi/lets-blog-it.git
    cd lets-blog-it
    ```
+
+2. **Install Dependencies**:
+   Ensure pip is installed and running on your system.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 # (Future in development)
-2. **Set up Docker**:
+3. **Set up Docker**:
    Ensure Docker is installed and running on your system.
 
    ```bash
    docker-compose up --build
    ```
 
-3. **Configure AWS**:
+4. **Configure AWS**:
    Set up your AWS account and add credentials for deployment.
 
-4. **Environment Variables**:
+5. **Environment Variables**:
    Create a `.env` file with the required variables (e.g., database, API keys, AWS credentials).
 
-5. **Run the Project**:
+6. **Run the Project**:
    ```bash
    docker-compose up
    ```
