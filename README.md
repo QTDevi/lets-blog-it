@@ -1,7 +1,7 @@
 # Let's Blog It
 
 ## Description
-**Let's Blog It** is a multi-user blogging platform designed for sharing pictures and text, similar to Tumblr. The platform features a robust search implementation, a recommendation algorithm, API support, and a secure login procedure. It’s an excellent solution for self-hosted blogging projects with modern, scalable technology.
+**Let's Blog It** is a multi-user blogging platform designed for sharing pictures and text, similar to Tumblr. The platform will features a robust search implementation, a recommendation algorithm, API support, and a secure login procedure. It’s an excellent solution for self-hosted blogging projects with modern, scalable technology.
 
 ---
 
@@ -12,7 +12,7 @@
 - **Login System**: Secure user authentication.
 - **Picture and Text Sharing**: Share and engage through images and text posts.
 - **Docker Deployment**: Simplifies setup and scaling.
-- **Frontend with React and Vue.js**: Clean and interactive user interface.
+- **Frontend with React and Tailwind CSS**: Clean and interactive user interface.
 - **Backend with Python/Django**: Secure and efficient server-side processing.
 - **Hosted on AWS**: Scalable and reliable cloud deployment.
 
@@ -62,10 +62,14 @@
 
 ## Technologies Used
 - **Backend**: Django, Django REST Framework
-- **Frontend**: React.js, Vue.js
+- **Frontend**: React.js, Tailwind CSS
+- **Image Processing**: Pillow/PIL and SciPy
+- **Recommendation System**: TenserFlow
 - **Containerization**: Docker
+- **Version Control**: Git
+- **CI/CD Pipeline**: GitHub Action
+- **Database**: PostgreSQL
 - **Deployment**: AWS
-- **Image Processing**: Python image processing tools (Probably Pillow/PIL and SciPy)
 
 ---
 
